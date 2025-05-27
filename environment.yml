@@ -1,0 +1,19 @@
+name: toric
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - plotly
+  - scikit-learn
+  - pytest
+  - cupy-cuda12
+  - nvidia-cuquantum-cu12
+  - jax[cuda12]
+  - pytorch-cuda=12.1
+  - tensornetwork
+  - cudatoolkit=12.1
+  - cudnn

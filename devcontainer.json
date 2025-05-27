@@ -1,0 +1,10 @@
+{
+    "name": "Toric Code DevContainer",
+    "image": "mcr.microsoft.com/devcontainers/cuda:12.2",
+    "features": {
+        "ghcr.io/devcontainers/features/python": {
+            "version": "3.11"
+        }
+    },
+    "postCreateCommand": "conda env update -f environment.yml"
+}
